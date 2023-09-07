@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Landing Page</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Qwigley&family=Source+Sans+3:wght@400;600;700;900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <!-- navbar starts here -->
+
+        <nav class="navbar bg-body-tertiary col-11">
+            <div class="container-fluid">
+                <a class=" navbar-brand col-0">Hot Meals</a>
+                <div class="d-flex col-4 gap-0" style="width: 530px;height:25px;">
+                    <span class="navbar-del"> Deliver to:</span>
+                    <div class="navfull-location" style="padding-bottom:10px; padding-left:5px">
+                        <span class="navicon"> <img src="./images/current location svg.svg"> Current Location</span>
+                        <span class="navaddres"> Ashok Nagar, Chennai-600013</span>
+                    </div>
+                </div>
+                <form class="d-flex gap-0" role="search">
+                    <div class="search food d-flex ">
+                        <img class="search-food-icon" style="width:18px;" src="./images/search food svg.svg">
+                        <input class="form-control me-2 " type="search" placeholder="Search Food" aria-label="Search"
+                            style="width: 100px;  outline: none;">
+                    </div>
+                    <button type="button" class="btn btn-outline- btn col-4 d-flex gap-2"
+                        style="border: 1px solid #FFAC0D; 
+                    width:118px; font-family:Source Sans Pro; font-Weight:700; font-size:18px; color:#FFB800; text-align:center; height:46px; padding-left:-1px">
+                        <img class="login" style="padding: 4px;" src="./images/login svg.svg"> Login
+                    </button>
+                </form>
+            </div>
+        </nav>
+
+        <!-- nav bar ends here -->
+
+        <!-- main hero starts here  -->
+        <div class="main-hero col-12 d-flex gap-20">
+            <div class="left-content" style="padding: 80px; margin-top:70px;">
+                <div class="content-top col-auto">
+                    <h1 class="heading  col-auto">Look at your fav Meals </h1>
+                    <p class="sub-heading col-auto">Within a few clicks, find meals that are accessible near you </p>
+                </div>
+                <div class="delivery-side" style="background-color:#ffff; width:856px; height:194px">
+                    <div class="delivery-top " style="padding: 24px;">
+                        <a class="btn col-2 gap-10">
+                            <img class="bike-icon" src="./images/Icon.svg"> Delivery
+                        </a>
+                        <a class="pickup">
+                            <img class="pickup-icon" src="./images/pickup svg.svg" alt="">
+                            Pickup
+                        </a>
+                    </div>
+                    <div class="delivery-bottom " style="padding: 24px;">
+                        <input type="text" class="addres" placeholder="         Enter Your Address">
+                        <button type="button" class="btn " style="width: 199px;
+                        height:60px; border-radius:8px; padding:21px,48px,21px,48px; gap:10px; color:#ffff; background-color:#FF7A7A; 
+                        border:0px">
+                            <img class="address icon" src="./images/find food svg.svg">
+                            Find Food</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main-hero-right" style="width: 524px; height:424px; margin-top:70px;">
+                <img src="./images/main hero img.png" alt="main img">
+            </div>
+
+        </div>
+
+    </header>
+
+
+
+
+    <!-- menu card section starts here  -->
+
+
+    <section class="container d-flex gap-3 " style="padding-top:100px;">
+        <div class="card" style="width: 357px; height:301px; border:0px">
+            <a href="https://www.swiggy.com/search?query=Vada" target="_blank"> <img class="card-img-top"
+                    src="./images/vada img.png" alt="vada img"> </a> <br>
+            <div class="card-body">
+                <h5 style="font-weight:700; font-size:22px; line-height:26px;" class="card-title">Vada</h5>
+                <a href="#" class="btn" style="width:183px; height:42px;
+                 font: weight 700; font-size:20px; line-height:26px; color:#F17228;">30 min Delivery</a>
+            </div>
+        </div>
+        <div class="card" style="width: 357px; height:301px; border:0px;">
+            <a href="https://www.swiggy.com/restaurants/idli-sambar-b-t-kawade-road-ghorpadi-pune-72842"
+                target="_blank"> <img class="card-img-top" src="./images/idly img.png" alt="idly img"> </a> <br>
+            <div class="card-body">
+                <h5 style="font-weight:700; font-size:22px; line-height:26px;" class="card-title">Idly</h5>
+                <a href="#" class="btn" style="width:183px; height:42px;
+                 font: weight 700; font-size:20px; line-height:26px; color:#F17228; ">30 min Delivery</a>
+            </div>
+        </div>
+        <div class="card" style="width: 357px; height:301px; border:0px;">
+            <a href="https://www.swiggy.com/search?query=Parotta+Set" target="_blank"> <img class="card-img-top"
+                    src="./images/parotta img.png" alt="parotta img"> </a><br>
+            <div class="card-body">
+                <h5 style="font-weight:700; font-size:22px; line-height:26px;" class="card-title">parotta</h5>
+                <a href="#" class="btn" style="width:183px; height:42px;
+                 font: weight 700; font-size:20px; line-height:26px; color:#F17228;">30 min Delivery</a>
+            </div>
+        </div>
+        <div class="card" style="width: 357px; height:301px; border:0px;">
+            <a href="https://www.swiggy.com/search?query=Kichadi" target="_blank"> <img class="card-img-top"
+                    src="./images/kichedi img.png" alt="kichadi img"> </a> <br>
+            <div class="card-body">
+                <h5 style="font-weight:700; font-size:22px; line-height:26px;" class="card-title">Kichadi</h5>
+                <a href="#" class="btn" style="width:183px; height:42px;
+                 font: weight 700; font-size:20px; line-height:26px; color:#F17228; ">30 min Delivery</a>
+            </div>
+        </div>
+
+    </section> <Br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+
+
+    <!-- How does it work section starts here -->
+
+    <section class="offer" style="padding-top: 100px;">
+        <div class="container col-6 "
+            style="width:350px; height:48px; font-weight:700; font-size:43px; line-height:48px; color:#F17228;">
+            <h1>How does it work </h1>
+        </div>
+        <br>
+
+
+        <div class="container d-flex  justify-content-center align-items-center gap-5 " style="width: 1396px; height:239px; border-radius: 10px;
+    box-shadow: 0px 5px 27px 11px #FFB5151A;">
+
+            <div class="d-flex gap-4" style="padding-bottom:100px">
+                <img style="width:136px; height:136px;" src="./images/daily discount img.png" class="img-fluid">
+                <div class="tittle">
+                    <h5 class="DD  " style="width: 152px; height:84px; font-weight:700; font-size:35px; padding-top:20px;
+                color: #FB3C00  ;">
+                        Daily Discounts</h5>
+                </div>
+            </div> <br>
+            <div class="line" style="width:2px; height:96px; padding-top:20px">
+                <img src="./images/HR.svg">
+            </div>
+
+            <div class="d-flex gap-4" style="padding-bottom:100px">
+                <img style="width:136px; height:136px;" src="./images/live tacing img.png" class="img-fluid">
+                <div class="tittle">
+                    <h5 class="LT " style="width: 152px; height:84px; font-weight:700; font-size:35px; padding-top:20px;
+                color: #FB3C00  ;">
+                        Live
+                        Tracing</h5>
+                </div>
+            </div>
+            <br>
+
+            <div class="line" style="width:2px; height:96px; padding-top:20px">
+                <img src="./images/HR.svg">
+            </div>
+
+            <div class="d-flex gap-4" style="padding-bottom:100px">
+                <img style="width:136px; height:136px;" src="./images/quick delivery img.png" class="img-fluid">
+                <div class="tittle">
+                    <h5 class="QD " style="width: 152px; height:84px; font-weight:700; font-size:35px; padding-top:20px;
+                color: #FB3C00  ;">
+                        Quick
+                        Delivery</h5>
+                </div>
+            </div>
+
+
+
+        </div>
+
+    </section>
+
+    <!-- How does it work section ends  here -->
+
+    <!-- search by food section starts here  -->
+    <section class="search-by-food " style="width: 1920px; height:604px; background-color:#F6F5EE" >
+        <div class="by-food" style=" font-family:Source Sans 3, sans-serif; font-weight:700; font-size:43px; padding:100px; margin-left:180px">
+            <h1> <b>Search by Food</b> </h1></div> <br>
+        
+        <div class=" d-flex col-10 justify-content-center " style="padding-left:200px;">
+
+            <div class="card" style="width:218px; height:218px; border:0px;">
+                <img src="./images/dosa img.png" class="card-img-top" alt="dosa-img">
+                <div class="card-body">
+                    <h5 class="card-title"
+                        style="font-family: Source Sans 3,sans-serif; font-weight:700; font-size:22px; text-align:center">
+                        Dosa</h5>
+                </div>
+            </div>
+
+            <div class="card" style="width:218px; height:218px; border:0px;">
+                <img src="./images/appam img.png" class="card-img-top" alt="aapppm img">
+                <div class="card-body">
+                    <h5 class="card-title"
+                        style="font-family: Source Sans 3,sans-serif; font-weight:700; font-size:22px; text-align:center">
+                        Aapppm</h5>
+                </div>
+            </div>
+
+            <div class="card" style="width:218px; height:218px; border:0px;">
+                <img src="./images/puttu img.png" class="card-img-top" style="border-radius: 50%;" alt="puttu img">
+                <div class="card-body">
+                    <h5 class="card-title"
+                        style="font-family: Source Sans 3,sans-serif; font-weight:700; font-size:22px; text-align:center">
+                        Puttu</h5>
+                </div>
+            </div>
+
+            <div class="card" style="width:218px; height:218px; border:0px;">
+                <img src="./images/idiyappam img.png" class="card-img-top" alt="Idiyappam img">
+                <div class="card-body">
+                    <h5 class="card-title"
+                        style="font-family: Source Sans 3,sans-serif; font-weight:700; font-size:22px; text-align:center">
+                        Idiyappam</h5>
+                </div>
+            </div>
+
+
+            <div class="card" style="width:218px; height:218px; border:0px;">
+                <img src="./images/pongal img.png" class="card-img-top" alt="Pongal img">
+                <div class="card-body">
+                    <h5 class="card-title"
+                        style="font-family: Source Sans 3,sans-serif; font-weight:700; font-size:22px; text-align:center">
+                        Pongal</h5>
+                </div>
+            </div>
+            
+            <div class="card" style="width:218px; height:218px; border:0px;">
+                <img src="./images/veg rice img.png" class="card-img-top" style="border-radius: 50%;" alt="Veg Rice img">
+                <div class="card-body">
+                    <h5 class="card-title"
+                        style="font-family: Source Sans 3,sans-serif; font-weight:700; font-size:22px; text-align:center">
+                        Veg Rice</h5>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="best-deals-full">
+        <div class=" d-flex " style="padding:200px; margin-left:80px">
+            <div class="left-part-BD" style="padding-top: 100px;  width: 407px; height:96px;">
+              <div class="top "> 
+                <div class="d-flex  gap-2" ><h3 class="head col-9" style="font-family: Source Sans 3, sans-serif;
+                    font-weight:700; font-size:43px; line-height:48px; ">
+                    Best deals 
+                </h3>
+                <h3 class="text-warning" style="font-family: Source Sans 3, sans-serif;
+                font-weight:700; font-size:43px; line-height:48px; "> Crispy </h3> </div>
+                <h3 class="text-warning" style="font-family: Source Sans 3, sans-serif;
+                font-weight:700; font-size:43px; line-height:48px; "> Diffen</h3>
+              </div> <br>
+              <p class="para" style="font-family: Open Sans, sans-serif; font-weight:600; font-size:18px; line-height:25px;">Enjoy the large size of Dosa. Complete <br>
+                perfect slice of Dosa.</p>
+                <button class="col-auto" style="width:407px; height:60px;  font-family: Source Sans 3, sans-serif; font-weight:900; font-size:18px; line-height:18px;
+                border-radius:8px; padding: 21px, 48px, 21px, 48px; gap:10px;color:#ffff ;background:linear-gradient(92.84deg, #FFB800 -47.72%, #FF8A00 136.81%);
+                border:0px; margin-top:70px;"> Proceed to order > </button>
+            </div>
+
+            <div class="right-part-BD">
+                <img  class="right-img"  style="width:961px; height:512px;" src="./images/best deals img.png">
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
