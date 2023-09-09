@@ -7,7 +7,6 @@ body {
   overflow-x: hidden;
 }
 
- 
 :root {
   font-family: "Open Sans", sans-serif;
   font-family: "Qwigley", cursive;
@@ -96,30 +95,29 @@ input.form-control.me-2 {
   height: 632px !important;
 }
 
-@media (max-width: 1900px) {
+@media (max-width: 1920px) {
   body {
-      width: 1900px;
+    width: 1920px;
   }
 
-  .main-hero{
-      background: url("./images/task\ bg\ image.png");
-      background-size: cover;
-      height: auto;
+  .main-hero {
+    background: url("./images/background\ full.png");
+    background-size: cover;
+    height: auto;
   }
-} 
+}
 
-
-@media (max-width: 1900px) {
+@media (max-width: 1920px) {
   body {
-      width: 1900px;
+    width: 1920px;
   }
 
-  .main-hero{
-      background: url("./images/task\ bg\ image.png");
-      background-size: cover;
-      height: auto;
+  .main-hero {
+    background: url("./images/background\ full.png");
+    background-size: cover;
+    height: auto;
   }
-}  
+}
 
 .heading {
   font-family: "Qwigley", cursive;
@@ -178,4 +176,87 @@ a.btn {
 
 .card-body {
   padding-left: 0px !important;
+}
+
+.fot-in {
+  border: 2px solid #424242;
+  width: 1540px;
+  margin-left: 127px;
+  height: 430px;
+  border-left: 0px;
+  border-right: 0px;
+}
+
+.top {
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffff;
+}
+li {
+  list-style: none;
+}
+
+.text-white {
+  text-decoration: none;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.container-flued {
+  margin-top: 100px;
+}
+.footer-right {
+  margin-left: 700px;
+  margin-top: 100px;
+}
+.email {
+  background: transparent;
+  border: none;
+  color: #fff;
+  padding-left: 5px; 
+  outline: none;
+}
+.sub {
+  width: 334px !important ;
+  height: 60px;
+  padding: 7px 0px 8px 16px;
+  border-radius: 8px;
+  gap: 10px;
+  padding-top: 15px;
+  background-color: #424242;
+  
+}
+.top-sub{
+ 
+  width: 483px;
+  height: 25px;
+  font-family: "Open Sans", sans-serif;
+font-size: 30px;
+font-weight: 700 bold;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: left;
+color: #BBBBBB;
+margin: 50px 0px 30px 0px;
+ 
+}
+.social{
+  font-family: "Source Sans 3", sans-serif;
+  
+font-size: 18px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+color:#6d6c6c;
+
+
 }
