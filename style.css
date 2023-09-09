@@ -95,9 +95,9 @@ input.form-control.me-2 {
   height: 632px !important;
 }
 
-@media (max-width: 1920px) {
+@media (max-width: 576px) {
   body {
-    width: 1920px;
+    width: 576px;
   }
 
   .main-hero {
@@ -107,15 +107,27 @@ input.form-control.me-2 {
   }
 }
 
-@media (max-width: 1920px) {
+@media (max-width: 1200px) {
   body {
-    width: 1920px;
+    width: 1200px;
   }
 
   .main-hero {
     background: url("./images/background\ full.png");
     background-size: cover;
     height: auto;
+  }
+}
+
+@media (max-width: 1400px) {
+  body {
+      width: 1400px;
+  }
+
+  .main-hero{
+      background: url("./images/background\ full.png");
+      background-size: cover;
+      height: auto;
   }
 }
 
@@ -221,7 +233,7 @@ li {
   background: transparent;
   border: none;
   color: #fff;
-  padding-left: 5px; 
+  padding-left: 5px;
   outline: none;
 }
 .sub {
@@ -232,31 +244,26 @@ li {
   gap: 10px;
   padding-top: 15px;
   background-color: #424242;
-  
 }
-.top-sub{
- 
+.top-sub {
   width: 483px;
   height: 25px;
   font-family: "Open Sans", sans-serif;
-font-size: 30px;
-font-weight: 700 bold;
-line-height: 25px;
-letter-spacing: 0em;
-text-align: left;
-color: #BBBBBB;
-margin: 50px 0px 30px 0px;
- 
+  font-size: 30px;
+  font-weight: 700 bold;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #bbbbbb;
+  margin: 50px 0px 30px 0px;
 }
-.social{
+.social {
   font-family: "Source Sans 3", sans-serif;
-  
-font-size: 18px;
-font-weight: 700;
-line-height: 22px;
-letter-spacing: 0em;
-text-align: left;
-color:#6d6c6c;
 
-
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #6d6c6c;
 }
