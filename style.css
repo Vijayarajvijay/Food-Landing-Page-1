@@ -267,3 +267,17 @@ li {
   text-align: left;
   color: #6d6c6c;
 }
+@media(max-width:600px){
+  body{
+    width: 600px;
+    
+  }
+.Popular-items{
+  
+    
+    width: 1900px;
+    height:600px
+    
+    
+  }
+}
