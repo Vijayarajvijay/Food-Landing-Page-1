@@ -256,7 +256,9 @@ li {
     background: url("./images/background\ full.png");
     background-size:cover;
     background-attachment: fixed;
+    width: 100%;
     height: auto;
+    width: 100px;
   }
 }
 
